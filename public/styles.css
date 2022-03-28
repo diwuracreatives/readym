@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* 
+.overview-info {
+    margin:10rem;
+} */
+
+header {
+    background-color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    align-items: center;
+}
+nav h3 {
+    color: white;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+a span {
+    border: 2px solid white;
+    padding: 7px;
+    background-color: orange;
+    border-radius: 7px;
+}
+
+.nav-drop {
+    display: none;
+}
+.overview-info {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.overview-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.first-section {
+    width: 35%;
+}
+
+
+.second-section {
+    width: 65%;
+    line-height: 2rem;
+}
+
+.content-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content-area button {
+    width: 150px;
+    border: 2px solid #3C8D44;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.content-area button:hover, button a:hover {
+    color: #3C8D44;
+    background-color: white;
+}
+
+.btn-secondary, .btn-secondary:hover, .dropdown-item:hover {
+    background-color: #3C8D44;
+    color: white;
+}
+
+.link:hover {
+    background-color: #FF7f00;
+    color: black;
+}
+
+footer {
+    background-color: #FF7f00;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+
+.sec-1 {
+    width:30% ;
+    margin: 4rem 2rem;
+
+}
+
+.sec-2 {
+    width: 15%;
+    margin: 4rem 2rem;
+}
+
+
+.sec-2 a {
+    text-transform: capitalize;
+    text-decoration: black;
+    font-size: 14px;
+    padding-left: 10px;
+    color: black;
+
+}
+.sec-2 p {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.w-100 {
+    margin: 0 auto;
+}
+
+button a {
+    color: white;
+}
+
+.user-image  p {
+    line-height: 17px;
+    font-size: 13px;
+    text-align: right;
+    padding-right: 70px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    margin: 20px auto;
+}
+
+.user-info .logo img, .user-image img {
+    border-radius: 50%;
+   
+    
+}
+
+ .user-image img{
+    width: 50%;
+    height: 100px;
+ }
+
+.content {
+    margin: 0 auto 20px;
+}
+
+.content-list {
+    line-height: 20px; 
+    padding: 5rem;
+    width: 30%;
+    border-radius: 7px ;
+    margin-right: 3rem;
+    background-color: rgba(89, 201, 89, 0.5);
+}
+
+.content-list h5 {
+    border-bottom: 4px solid #ffffff;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.second-user {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(89, 201, 89, 0.5);
+    border-bottom: 2px solid gray;
+    align-items: center;
+    padding: 20px;
+}
+
+.user2-image img {
+    border-radius: 50%;
+    width: 20%;
+}
+.chat-box {
+    background-color: rgba(89, 201, 89, 0.1);
+    padding: 5rem;
+    width: 100%;
+    border-radius: 7px;
+    line-height: 7px;
+}
+
+.chat-box input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.chat-box p {
+    font-size: 13px;
+}
+.time {
+    color: rgb(163, 162, 162);
+    text-align: center;
+}
+
+.chat-text1 {
+    border-radius: 5px;
+    text-align: right;
+    background-color: rgba(41, 236, 41, 0.5);
+    padding: 10px 10px 10px 200px;
+    margin-bottom: 10px;
+}
+
+.chat-text2 {
+    padding:10px 200px 10px 10px;
+    text-align: left;
+    background-color: rgba(255, 119, 7, 0.397);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .overview-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-section {
+        margin-top: 25px;
+    }
+
+    .footer-section {
+        flex-direction: row;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .links {
+        display: none;
+    }   
+
+    .nav-drop {
+        display: flex;
+        background-color: #FF7f00;
+        width: 40%;
+
+    }
+}

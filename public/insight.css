@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*/{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 50px;
+    margin-left: 65px;
+    font-family: "Open sans";
+}
+img{
+    /* border: 2px solid yellow; */
+    height: 340px;
+    width: 47%;
+}
+/* img.two{
+    width: 538.11px;
+} */
+div.first-box{
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+div.images-box{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 200px;
+    background-color:#ff8000b4;
+    padding: 50px 50px;
+    
+}
+footer{
+    margin-top: 200px;
+    background-color:#ff8000;
+    padding: 50px 50px;
+    
+}
+
+footer a{
+    color: #3b3b3b;
+    font-size: 16px;
+
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    color: #575555;
+
+    
+}
+footer h4{
+    font-size: 20px;
+    color: #3b3b3b;
+   
+}
+
+.input-group1{
+    width: 70%;
+}
+
+.input-group1 span{
+    border: 1px solid #3C8D44;
+    background-color: #3C8D44;
+    color: white;
+}
+footer a:hover{
+    color: #3C8D44;
+    
+
+}
+footer a{
+    text-decoration: none;
+}

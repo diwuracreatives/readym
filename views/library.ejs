@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="library.css">
+  <title>USER'S LIBRARY AND COLLECTION</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand " href="index.html">
+      <div class="logo">
+        <img src="./images/readym.png" width="170px" alt="" class="logo-img">
+      </div>
+    </a>
+    <h1>User's Library & Collection</h1>
+    <div class="icon-box">
+      <form><input class="fill" type="text" placeholder="  Search"></form><span class="microphone"><i
+          class="fa-solid fa-microphone"></i></span>
+    </div>
+  </nav>
+  <ul class="top1">
+    <li class="dash"><a>Current Reads</a></li>
+    <button>Archive</button>
+  </ul>
+  <div class="boxes-host">
+    <div class="fiction">
+      <div class="top">
+        <h2>Fiction</h2>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="squares">
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/alice.jpg" alt="Alice Picture"></div>
+          <p class="text">59%</p>
+          <div class="line">
+            <div class="half-line"></div>
+          </div>
+          <h5>Alice in Wonderland<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Lewis Caroll<span class="views" id="one"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/the great.jpg" alt="A Face"></div>
+          <p class="text">20%</p>
+          <div class="line">
+            <div class="half-line" id="second"></div>
+          </div>
+          <h5>The Great Gatsby<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>F.Scott Fitzgerald<span class="views" id="two"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/pride2.jpeg" alt="..."></div>
+          <p class="text">78%</p>
+          <div class="line" id="third">
+            <div class="half-line"></div>
+          </div>
+          <h5>Pride and Prejudice<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Jane Austen<span class="views" id="three"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+      </div>
+    </div>
+    <div class="fiction" id="comics">
+      <div class="top">
+        <h2>Comics</h2>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="squares">
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/nimona.jpg" alt="..."></div>
+          <p class="text">10%</p>
+          <div class="line">
+            <div class="half-line" id="fourth"></div>
+          </div>
+          <h5>Nimona<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>ND Stevenson<span class="views" id="four"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/watchmen.jpg" alt="..."></div>
+          <p class="text">37%</p>
+          <div class="line">
+            <div class="half-line" id="fifth"></div>
+          </div>
+          <h5>Watchmen<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Alan Moore<span class="views" id="five"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/batman.jpg" alt="..."></div>
+          <p class="text">5%</p>
+          <div class="line">
+            <div class="half-line" id="sixth"></div>
+          </div>
+          <h5>Batman:The Great King<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>DC Comics<span class="views" id="six"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+      </div>
+    </div>
+    <div class="fiction" id="poems">
+      <div class="top">
+        <h2>Poems</h2>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="squares">
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/home2.jpeg" alt="..."></div>
+          <p class="text">90%</p>
+          <div class="line">
+            <div class="half-line" id="tenth"></div>
+          </div>
+          <h5>Home Body<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Rupi Kaur<span class="views" id="seven"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/songs.jpg" alt="..."></div>
+          <p class="text">100%</p>
+          <div class="line">
+            <div class="half-line" id="eleventh"></div>
+          </div>
+          <h5>Songs of Innocence<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Alan Sean<span class="views" id="eight"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/paradise.jpg" alt="..."></div>
+          <p class="text">82%</p>
+          <div class="line">
+            <div class="half-line" id="twelfth"></div>
+          </div>
+          <h5>Paradise Lost<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>John Milton<span class="views" id="nine"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+      </div>
+    </div>
+    <div class="fiction" id="comics">
+      <div class="top">
+        <h2>Horror</h2>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="squares">
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/hunger.jpg" alt="..."></div>
+          <p class="text">78%</p>
+          <div class="line">
+            <div class="half-line" id="thirteenth"></div>
+          </div>
+          <h5>Hunger<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Alma Katsu<span class="views" id="ten"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/the shijer.jpg" alt="..."></div>
+          <p class="text">95%</p>
+          <div class="line">
+            <div class="half-line" id="fourteenth"></div>
+          </div>
+          <h5>The Shining<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Stephen King<span class="views" id="eleven"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/gjhost.jpg" alt="..."></div>
+          <p class="text">82%</p>
+          <div class="line">
+            <div class="half-line" id="fifteenth"></div>
+          </div>
+          <h5>Ghost Story<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Peter Straub<span class="views" id="twelve"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+      </div>
+    </div>
+    <div class="fiction" id="comics">
+      <div class="top">
+        <h2>Magazines</h2>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="squares">
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/magic.jpg" alt="..."></div>
+          <p class="text">99%</p>
+          <div class="line">
+            <div class="half-line" id="sixteenth"></div>
+          </div>
+          <h5>The Magic<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Rhonda Byine<span class="views" id="thirteen"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/powetr.jpg" alt="..."></div>
+          <p class="text">86%</p>
+          <div class="line">
+            <div class="half-line" id="seventeenth"></div>
+          </div>
+          <h5>The Power of Focus<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Jack Canfield<span class="views" id="fourteen"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/forgive.jpg" alt="..."></div>
+          <p class="text">100%</p>
+          <div class="line">
+            <div class="half-line" id="eighteenth"></div>
+          </div>
+          <h5>Forgive Yourself<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Jared Singer<span class="views" id="fifteen"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+      </div>
+    </div>
+    <div class="fiction" id="comics">
+      <div class="top">
+        <h2>Educational</h2>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="squares">
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/civic2.jpeg" alt="..."></div>
+          <p class="text">90%</p>
+          <div class="line">
+            <div class="half-line" id="ninteenth"></div>
+          </div>
+          <h5>Civic Education<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Felix K. Alonge<span class="views" id="sixteen"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/social2.jpeg" alt="..."></div>
+          <p class="text">99%</p>
+          <div class="line">
+            <div class="half-line" id="twentieth"></div>
+          </div>
+          <h5>Social Studies<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Felix K. Alonge<span class="views" id="seventeen"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+        <div class="box">
+          <div class="square"><img class="library-images" src="./library images/things fall.jpg" alt="..."></div>
+          <p class="text">91%</p>
+          <div class="line">
+            <div class="half-line" id="twenty-first"></div>
+          </div>
+          <h5>Power<span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span></h5>
+          <h7>Robert Greene<span class="views" id="eighteen"><i class="fa-solid fa-eye"></i><span> 12K</span></h7>
+        </div>
+      </div>
+    </div>
+    <div class="fiction" id="comics">
+      <h2>News & Updates</h2>
+      <div class="box">
+        <div class="square"><img class="library-images" src="./library images/news.jpeg" alt="..."></div>
+        <p class="text" id="last-p">10%</p>
+        <div class="line">
+          <div class="half-line" id="twenty-second"></div>
+        </div>
+        <h5>Readym<span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span></h5>
+        <h7>Kanyisola Sowemimo</h7>
+      </div>
+    </div>
+  </div>
+  <!-- library and collection ends -->
+  <footer>
+    <section class="d-flex flex-lg-row flex-sm-column">
+      <section class="flex-fill">
+        <h4>Readym</h4>
+        <p>
+          Try Readym. <br>
+          It's free, ad-free and easy to use.
+        </p>
+        <p class="text-muted">
+          Subscribe to get new books
+        </p>
+        <div class="input-group1 input-group">
+          <input type="text" class="form-control text-white" placeholder="Email Address" aria-label="Email"
+            aria-describedby="basic-addon2">
+          <div class="input-group-prepend">
+            <!-- the san is thatstuff by the side -->
+            <a href="#"><span class="input-group-text Subscribe">Subscribe
+              </span></a>
+          </div>
+      </section>
+      <section class="flex-fill">
+        <h4 class="mb-4">Category</h4>
+        <ul>
+          <li><a href="#"> Fiction</a></li>
+          <li><a href="#">Adventure</a> </li>
+          <li><a href="#"> Mystery</a></li>
+          <li><a href="#">Comics</a> </li>
+          <li><a href="#"> Fantasy</a></li>
+          <li><a href="#"> Sci-Fi</a></li>
+        </ul>
+      </section>
+      <section class="flex-fill">
+        <h4 class="mb-4">Quick Link</h4>
+        <ul>
+          <li><a href="#"> About Us</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Teams</a></li>
+        </ul>
+
+
+
+      </section>
+      <section class="flex-fill">
+        <h4 class="mb-4">Support</h4>
+        <ul>
+          <li><a href="#"> Help center</a></li>
+          <li><a href="#">Terms and condition</a> </li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Partners</a> </li>
+
+        </ul>
+      </section>
+      <section class="flex-fill">
+        <h4 class="mb-4">Contact</h4>
+        <ul>
+          <li><a href="#"> ready@gmail.com</a></li>
+          <li><a href="#">+234-654-7652-021</a> </li>
+          <li><a href="#">34 Yaba, Lagos, NG</a></li>
+          <li><a href="#">FAQ</a> </li>
+
+        </ul>
+      </section>
+    </section>
+    <section class="copyright text-center" class="mt-5">
+      <div class="column text-dark mb-1 ">
+        <i class="fa-brands fa-facebook me-3"></i>
+        <i class="fa-brands fa-twitter me-3"></i>
+        <i class="fa-brands fa-instagram me-3"></i>
+        <i class="fa-brands fa-youtube"></i>
+
+      </div>
+
+      <p> Copyright<i class="fa-regular fa-copyright"></i> 2022 All rights reserved to
+        Readym</p>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

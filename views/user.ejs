@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v6.1.0/css/all.css"
+		/>
+		<title>User</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="user.css" />
+	</head>
+	<body>
+		<!-- USER PROFILE -->
+		<!-- nav bar starts -->
+		<nav class="navbar navbar-expand-lg navbar-expand-sm">
+			<div class="container-fluid">
+			  <a class="navbar-brand ms-5" href="index.html">  <div class="logo">
+				<img src="./images/readym.png" width="170px" alt="" class="logo-img">
+			 </div> </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ms-auto">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<!-- dropdown -->
+					<li class="dropdown">
+						<div class="dropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
+							
+							<div class="dropdown-content">
+								<a href="#" class="mb-2">Spanish</a>
+								<a href="#" class="mb-2">French</a>
+								<a href="#" class="mb-2">Germany</a>
+								<a href="#">Japanese</a>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown">
+						
+						<div class="dropdown">
+							<a href="#" class="nav-link dropdown-toggle orange" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+							<div class="dropdown-content">
+								<a href="#" class="mb-3">Fiction</a>
+								<a href="#" class="mb-3">Comics</a>
+								<a href="#" class="mb-3">Horror</a>
+								<a href="#" class="mb-3">Adventure</a>
+								<a href="#" class="mb-3">Non-fiction</a>
+								<a href="#" class="mb-3">Tragedy</a>
+								<a href="#">Poem</a>
+							</div>
+						</div>
+					</li>
+				
+				 
+					<li><a class="nav-link active" aria-current="page" href="community.html">Community</a></li>
+				  <li><a class="nav-link orange" href="library.html">Collections</a></li>
+				  <li><a class="nav-link" href="about.html">About Us</a></li>
+				  <a class="btn button-1 me-5" href="#" role="button">Get Started</a>
+				
+				 
+				</div>
+			  </div>
+			</div>
+		  </nav>
+		<main class="main d-flex justify-content-between">
+			<div class="profile">
+				<div class="profile-child py-5 px-3">
+					<div class="d-flex">
+						<div class="picture"><img class="user-image" src="./image.png/user.jpg" alt="Maimunah's picture" /></div>
+						<div class="follows-1 d-flex">
+							<div class="me-3">
+								<h5 class="follow">Followers</h5>
+								<span class="counts">600 </span>
+							</div>
+							<div class="">
+								<h5 class="follow">Following</h5>
+								<span class="counts">251 </span>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex ">
+						<div>
+							<h2 class="name text-start">Maimunah Isah</h2>
+							<p class="atuser text-start">@maisah</p>
+						</div>
+						<div>
+						<button class="follow-btn ms-5">Follow</button>
+						</div>
+					</div>
+					<h2 class="about-user text-start">Bio</h2>
+					<p class="detail text-start">
+						12th grader at Aleka Academy. I love books <br>
+						 ranging from fictions,
+						sci-fi, adventures and <br>
+						 educational
+					</p>
+					<div class="follows d-flex text-start">
+						<div class="fol">
+							<h5 class="total me-5">Total Books read</h5>
+							<span class="count">30 </span>
+						</div>
+						<div class="fol">
+							<h5 class="badges">Badges</h5>
+							<span class="count">10 </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3 class="current">Current Reads</h3>
+				<div class="books d-flex">
+					<div>
+						<img src="./image.png/wahala.png" alt="Wahala" />
+						<br />
+						<p class="book-title">
+							Wahala <br /><i class="italics">Nikki May</i>
+						</p>
+					</div>
+					<div>
+						<img
+							src="./image.png/men.png"
+							alt="Nearly all men in Lagos are mad"
+						/>
+						<br />
+						<p class="books-title">
+							Nearly All The Men in Lagos are Mad <br /><i class="italics ms-5 ps-3"
+								>Damilare Kuku</i
+							>
+						</p>
+					</div>
+				</div>
+				<div class="visit-container d-flex">
+					<div><a class="visit-maisa" href="#">Visit Maisa's Library</a></div>
+					<div><a class="share" href="#">Share Profile</a></div>
+				</div>
+			</div>
+		</main>
+		<!-- footer starts -->
+		<footer class="d-flex flex-lg-row flex-sm-column">
+			<section class="flex-fill">
+			<h4>Readym</h4>
+			<p>
+				Try Readym. <br>
+				It's free, ad-free and easy to use.
+			</p>
+			<p class="text-muted">
+				Subscribe to get new books
+			</p>
+			<div class="input-group1 input-group">
+            <input type="text" class="form-control text-white" placeholder="Email Address" aria-label="Email" aria-describedby="basic-addon2">
+            <div class="input-group-prepend">
+                <!-- the san is thatstuff by the side -->
+              <span class="input-group-text" >
+                Subscribe
+            </span>
+            </div>
+    </section>
+    <section class="flex-fill">
+        <h4 class="mb-4">Category</h4>
+        <ul>
+            <li><a href="#"> Fiction</a></li>
+            <li><a href="#">Adventure</a> </li>
+            <li><a href="#"> Mystery</a></li>
+            <li><a href="#">Comics</a> </li>
+            <li><a href="#"> Fantasy</a></li>
+            <li><a href="#"> Sci-Fi</a></li>
+        </ul>
+    </section>
+    <section class="flex-fill">
+        <h4 class="mb-4">Quick Link</h4>
+        <ul>
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Teams</a></li>
+        </ul>
+        <div class="column text-dark ">
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
+            <i class="fa-brands fa-youtube mb-5"></i>
+
+        </div>  
+        <p>  Copyright<i class="fa-regular fa-copyright"></i> 2022 All rights reserved to 
+            Readym</p>
+        
+    </section>
+    <section class="flex-fill">
+        <h4 class="mb-4">Support</h4>
+        <ul>
+            <li><a href="#"> Help center</a></li>
+            <li><a href="#">Terms and condition</a> </li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Partners</a> </li>
+
+        </ul>
+    </section>
+    <section class="flex-fill">
+        <h4 class="mb-4">Contact</h4>
+        <ul>
+            <li><a href="#"> ready@gmail.com</a></li>
+            <li><a href="#">+234-654-7652-021</a> </li>
+            <li><a href="#">34 Yaba, Lagos, NG</a></li>
+            <li><a href="#">FAQ</a> </li>
+
+        </ul>
+    </section>
+
+    
+</footer>
+	</body>
+</html>
